@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class createTrafficLights : MonoBehaviour
 {
-    List<GameObject> Cylinders = new List<GameObject>();
+    public List<GameObject> Cylinders = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
@@ -14,7 +14,7 @@ public class createTrafficLights : MonoBehaviour
 
     public float radius = 10;
 
-    void cylindersCreatedInACircle()
+    public void cylindersCreatedInACircle()
     {
         float theta = (Mathf.PI * 2.0f) / 10f;
 

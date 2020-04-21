@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc9380387bc1c04b884e61a4949a5db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Cylinders: []
   radius: 10
 --- !u!1 &705507993
 GameObject:
@@ -349,6 +350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1318730741}
+  - component: {fileID: 1318730742}
   - component: {fileID: 1318730740}
   - component: {fileID: 1318730739}
   - component: {fileID: 1318730738}
@@ -428,11 +430,35 @@ Transform:
   m_GameObject: {fileID: 1318730737}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1318730742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318730737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9518fa55c0281174b880649e3a4e8072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
+  acceleration: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  mass: 1
+  maxSpeed: 5
+  maxForce: 10
+  speed: 0
+  seekEnabled: 1
+  target: {x: 0, y: 0, z: 0}
+  banking: 0
+  choosenTrafficLight: {fileID: 150161418}
+  trafficLights: {fileID: 150161420}
 --- !u!1 &2085052526
 GameObject:
   m_ObjectHideFlags: 0
