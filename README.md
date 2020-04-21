@@ -5,5 +5,5 @@
 - [x] Git setup
 - [x] Implementing the positions of the traffic lights
 - [x] Implementing the traffic light AI
-- [ ] Implementing the car movement	
-- [ ] Getting the car to pick random green traffic lights to go to	
+- [x] Implementing the car movement	
+- [x] Getting the car to pick random green traffic lights to go to	
